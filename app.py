@@ -13,7 +13,7 @@ def about():
 
 @app.route('/blog')
 def blog():
-  return render_temlpate('blog.html')
+  return render_template('blog.html')
   
 if __name__=="__main__":
   app.run()

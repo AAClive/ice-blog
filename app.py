@@ -11,9 +11,9 @@ app=Flask(__name__)
 def about():
   return render_template('about.html')
 
-@app.route('/about')
+@app.route('/blog')
 def about():
-  return render_temlpate('about.html')
+  return render_temlpate('blog.html')
   
 if __name__=="__main__":
   app.run()
